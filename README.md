@@ -39,20 +39,19 @@ cd maquinaseparadora-react
 2. Configurar o Backend
 Bash
 
-# Navegue até a pasta do backend
+ Navegue até a pasta do backend
 cd backend
 
-# Instale as dependências
+ Instale as dependências
 npm install
 
-# Configure as variáveis de ambiente
-# Crie um arquivo .env na pasta 'backend' ou altere diretamente no server.js
-# com as suas credenciais do MySQL.
-# Exemplo de .env:
-# DB_HOST=localhost
-# DB_USER=root
-# DB_PASSWORD=sua_senha
-# DB_NAME=db_prod
+ Crie um arquivo .env na pasta 'backend' ou altere diretamente no server.js
+ com as suas credenciais do MySQL.
+ Exemplo de .env:
+ DB_HOST=localhost
+ DB_USER=root
+ DB_PASSWORD=sua_senha
+ DB_NAME=db_prod
 Importante: Execute os scripts SQL fornecidos no projeto para criar as tabelas e popular o banco de dados com dados iniciais.
 
 Inicie o servidor backend:
@@ -60,17 +59,17 @@ Inicie o servidor backend:
 
 node server.js
 
-# O servidor estará rodando em http://localhost:3000
+O servidor estará rodando em http://localhost:3000
 3. Configurar o Frontend
 Bash
 
-# Navegue até a pasta do frontend (a partir da raiz do projeto)
+Navegue até a pasta do frontend (a partir da raiz do projeto)
 cd frontend
 
-# Instale as dependências
+Instale as dependências
 npm install
 
-# Inicie o servidor de desenvolvimento do Expo
+Inicie o servidor de desenvolvimento do Expo
 npx expo start
 O Expo abrirá uma aba no navegador. Você pode escanear o QR Code com o app Expo Go no seu celular (Android/iOS) ou pressionar w para abrir a versão web no navegador.
 📋 API Endpoints
